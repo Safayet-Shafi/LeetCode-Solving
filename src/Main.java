@@ -20,6 +20,10 @@ public class Main {
 //        System.out.println(number);
 
         String result1 = obj1.restoreString("codeleet",new int []{4,5,6,7,0,2,1,3});
-        System.out.println(result1);
+//        System.out.println(result1);
+
+        Permutation obj2=new Permutation();
+        obj2.findPermutationDifference("abcde","edbac");
+        System.out.println(obj2.finalValueAfterOperations(new String[]{"++X","++X","X++"}));
     }
 }
