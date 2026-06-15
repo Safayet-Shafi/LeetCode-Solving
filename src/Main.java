@@ -25,5 +25,10 @@ public class Main {
         Permutation obj2=new Permutation();
         obj2.findPermutationDifference("abcde","edbac");
         System.out.println(obj2.finalValueAfterOperations(new String[]{"++X","++X","X++"}));
+
+        String[] strs1 = {"flower", "flow", "flight"};
+        longetprefix14 l1=new longetprefix14();
+       // System.out.println("l1.longestCommonPrefix(strs1) = " + l1.longestCommonPrefix(strs1));
+        System.out.println("output = " + l1.longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
     }
 }
