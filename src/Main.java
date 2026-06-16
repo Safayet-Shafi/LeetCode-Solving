@@ -29,6 +29,13 @@ public class Main {
         String[] strs1 = {"flower", "flow", "flight"};
         longetprefix14 l1=new longetprefix14();
        // System.out.println("l1.longestCommonPrefix(strs1) = " + l1.longestCommonPrefix(strs1));
-        System.out.println("output = " + l1.longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
+       // System.out.println("output = " + l1.longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
+        plus66 p1=new plus66();
+        //System.out.println("p1.plusOne(new int[]{1,2,3}) = " + p1.plusOne(new int[]{4,3,2,9}));
+
+        int[]result66=p1.plusOne(new int[]{1,2,3,9});
+        for (int num : result66) {
+            System.out.print(num + " ");
+        }
     }
 }
